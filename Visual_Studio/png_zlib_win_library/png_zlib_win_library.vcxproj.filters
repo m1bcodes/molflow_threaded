@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\png">
+      <UniqueIdentifier>{5207c75e-6c09-4bdc-9e28-7cb3cf31d251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zlib">
+      <UniqueIdentifier>{43871006-13cd-47a5-a604-6e549e92902f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\windows_only\png\pngrio.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngrtran.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngrutil.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngset.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngtest.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngtrans.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngwio.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngwrite.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngwtran.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngwutil.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\png.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngerror.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngget.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngmem.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngpread.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\png\pngread.c">
+      <Filter>Source Files\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\gzread.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\gzwrite.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\infback.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\inffast.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\inflate.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\inftrees.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\trees.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\uncompr.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\zutil.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\adler32.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\compress.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\crc32.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\deflate.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\gzclose.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\windows_only\zlib\gzlib.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\windows_only\png\png.h">
+      <Filter>Source Files\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\png\pngconf.h">
+      <Filter>Source Files\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\png\pngdebug.h">
+      <Filter>Source Files\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\png\pnginfo.h">
+      <Filter>Source Files\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\png\pnglibconf.h">
+      <Filter>Source Files\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\png\pngpriv.h">
+      <Filter>Source Files\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\png\pngstruct.h">
+      <Filter>Source Files\png</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\inffast.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\inffixed.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\inflate.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\inftrees.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\trees.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\zconf.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\zlib.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\zutil.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\crc32.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\deflate.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\windows_only\zlib\gzguts.h">
+      <Filter>Source Files\zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
